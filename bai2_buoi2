@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baitap</title>
+</head>
+<body>
+    <?php
+$a=array("Tokyo", "Mexico City", "New York City", "Mumbai", "Seoul", "Shanghai", "Lagos", "Buenos Aires", "Cairo", "London");
+$b=count($a);
+for ($i = 0; $i < $b; $i++) {
+	echo "$a[$i], ";
+}
+
+sort($a);
+echo"<ul>";
+    foreach ($a as $a1){
+        echo"<li>$a1</li>";
+    }
+echo"</ul>";
+
+$b= array("Los Angeles", "Calcutta", "Osaka", "Beijing");
+$a= array_merge($a,$b);
+
+sort($a);
+echo"<ul>";
+    foreach ($a as $a1){
+        echo"<li>$a1</li>";
+    }
+echo"</ul>";
+    ?>
+</body>
+</html>
