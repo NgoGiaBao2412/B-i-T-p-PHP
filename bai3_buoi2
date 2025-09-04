@@ -1,0 +1,24 @@
+<?php
+// Khai báo mảng liên hợp (key = tên quốc gia, value = thủ đô)
+$countries = array(
+    "Italy" => "Rome",
+    "Luxembourg" => "Luxembourg",
+    "Belgium" => "Brussels",
+    "Denmark" => "Copenhagen",
+    "Finland" => "Helsinki",
+    "France" => "Paris",
+    "Slovakia" => "Bratislava",
+    "Slovenia" => "Ljubljana",
+    "Germany" => "Berlin",
+    "Greece" => "Athens",
+    "Ireland" => "Dublin",
+    "Netherlands" => "Amsterdam",
+    "Austria" => "Vienna",
+    "Poland" => "Warsaw"
+);
+
+// In các giá trị theo định dạng yêu cầu
+foreach ($countries as $country => $capital) {
+    echo "Thủ đô của $country là $capital.<br>";
+}
+?>
