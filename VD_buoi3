@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaiTap</title>
+</head>
+<body>
+
+    <form method="get"action="http://www.google.com/search">
+  <div>
+    Let's search Google:
+    <input name="q" />
+    <input type="submit" />
+
+    <!-- 'q' happens to be the name of Google's required parameter -->
+<input type="text" name="b" value="Colbert Report" />
+<input type="submit" value="Booyah!" />
+
+<input type="checkbox" name="c" value="ABC" />
+<input type="radio" name="a" value="ABC" />
+
+  </div>
+</form>    
+
+</body>
+</html>
